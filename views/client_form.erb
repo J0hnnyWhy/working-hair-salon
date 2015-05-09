@@ -1,0 +1,13 @@
+<h1>Add a New Client</h1>
+
+
+<form action="/client" method="post">
+  <input id="stylist_id" name="stylist_id" type="hidden" value="<%= @stylist.id() %>">
+
+  <label for="name">Name:</label>
+  <input id="name" name="name" type="text">
+
+  <button class="btn-success">Add Client</button>
+</form>
+
+
